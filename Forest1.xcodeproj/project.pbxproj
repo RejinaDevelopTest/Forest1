@@ -24,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0805011021830D5D00C857B1 /* Forest1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Forest1.entitlements; sourceTree = "<group>"; };
 		080D91992112E87100867C0E /* MyPagerTabStripName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPagerTabStripName.swift; sourceTree = "<group>"; };
 		080D919B2112EBB000867C0E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		080D919D2112F84300867C0E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 		08D6B4D22112E48900006473 /* Forest1 */ = {
 			isa = PBXGroup;
 			children = (
+				0805011021830D5D00C857B1 /* Forest1.entitlements */,
 				08D6B4D32112E48900006473 /* AppDelegate.swift */,
 				08D6B4DA2112E48A00006473 /* Assets.xcassets */,
 				0843F5FF217481C500944282 /* Forest1.xcworkspace */,
@@ -154,6 +156,11 @@
 				TargetAttributes = {
 					08D6B4CF2112E48900006473 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};

@@ -17,6 +17,8 @@ target 'Forest1' do
   pod 'Firebase/Database'
   pod 'Firebase/Firestore'
 
+  pod 'Pring'
+
   pod 'FBSDKLoginKit'
 
   pod 'RxSwift'

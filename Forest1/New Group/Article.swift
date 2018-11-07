@@ -10,6 +10,11 @@ import Foundation
 
 public struct Article {
     var title : String
-    var siteName : String
-    var today : Date
+    var url : String
+    var date : Date
+
+    var wikiTitle : String
+    var imageUrl: String
 }
+
+let URL = "https://forest-4f8aa.firebaseapp.com/index"

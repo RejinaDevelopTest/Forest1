@@ -52,6 +52,8 @@ class FirstViewController: UIViewController, IndicatorInfoProvider, UITableViewD
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
+        // Cellに対して表示データを設定する
+        
         if indexPath.row == 1 {
             return tableview.dequeueReusableCell(withIdentifier: "testRow", for: indexPath)
         } else {
